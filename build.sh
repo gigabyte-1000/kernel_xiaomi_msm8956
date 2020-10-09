@@ -16,7 +16,7 @@ KERNEL_DIR=$PWD
 Anykernel_DIR=$KERNEL_DIR/AnyKernel3/
 DATE=$(date +"%d%m%Y")
 TIME=$(date +"-%H.%M.%S")
-KERNEL_NAME="Bloody-Kernel-Mod-x69"
+KERNEL_NAME="Darkstar-Kernel-Stock-v1"
 DEVICE="-kenzo-"
 FINAL_ZIP="$KERNEL_NAME""$DEVICE""$DATE""$TIME"
 
@@ -31,8 +31,8 @@ rm -rf arch/arm64/boot/Image.gz
 rm -rf arch/arm64/boot/Image.gz-dtb
 
 # Export few variables
-export KBUILD_BUILD_USER="Magicxavi"
-export KBUILD_BUILD_HOST="Pornhub"
+export KBUILD_BUILD_USER="Gigabyte"
+export KBUILD_BUILD_HOST="Darkstar"
 export CROSS_COMPILE=/home/amol/pie/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
 export ARCH="arm64"
 export USE_CCACHE=1
